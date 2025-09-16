@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>FORMULARIO</h1>
+    <form action="#" method="post" autocomplete="off" accept-charset="UTF-8">
+        <p>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" size="30" placeholder="Ingresa tu Nombre" required> 
+        </p>
+        <p>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido" size="30" placeholder="Ingresa tu Apellido" required>
+        </p>
+        <p>
+            <label for="email">Correo Electronico</label>
+            <input type="email" id="email" name="email" size="30" placeholder="Ingresa tu Correo" required>
+        </p>
+        <p>
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="contrasena" size="30" placeholder="Contraseña" required>
+        </p>
+        <p>
+            <label for="fecha">Fecha</label>
+            <input type="date" id="fecha" name="fecha" required>
+        </p>
+        <p>
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" size="30" placeholder="Ingresa tu Número" required>
+        </p>
+
+
+        <p>
+            <label for="Observaciones">Observaciones</label>
+            <textarea id="observaciones" name="observaciones" cols="50" rows="5"></textarea>
+        </p>
+
+        
+        <p>
+            <button type="submit" name="enviar" value="enviar">Enviar</button>
+        </p>
+    </form>
+</body>
+</html>
