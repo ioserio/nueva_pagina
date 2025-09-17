@@ -21,3 +21,21 @@ h1 {
     margin-bottom: 1.5rem;
     color: blueviolet;
 }
+button{
+    width: 100%;
+    padding: 0.7rem;
+    border: none;
+    background: blueviolet;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+button:focus {
+    outline: none;
+    box-shadow: 0 0 5px blueviolet;
+}
+button:hover {
+    background: #8e44ad;
+}
